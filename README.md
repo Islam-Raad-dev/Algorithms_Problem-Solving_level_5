@@ -24,14 +24,15 @@ The methodology in this repository shifts from isolated problem-solving to conti
 ## 📂 Repository Structure
 This repository focuses on multi-stage projects rather than isolated problems:
 
-### 1. Core Projects
+### Projects
 * **Project 1:** Core Implementation
 * **Project 2:** Core Implementation
-
-### 2. Project Extensions
-Projects that simulate real software lifecycle and requirement changes:
-* **Project 1 - Extensions:** Feature Growth & Iteration
-* **Project 2 - Extensions:** Advanced Logic & Maintenance
+* **Project 3:** Core Implementation
+* **Project 4:** Core Implementation
+* **Project 5:** Core Implementation
+* **Project 6:** Core Implementation
+* **Project 7:** Core Implementation
+* **Project 8:** Core Implementation
 
 ## 🛠️ Technologies Used
 * **Language:** C++
