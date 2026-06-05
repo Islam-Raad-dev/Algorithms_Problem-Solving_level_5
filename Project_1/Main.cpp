@@ -15,9 +15,12 @@ int main()
     MyDblLinkedList.InsertAtBeginning(10);
     MyDblLinkedList.InsertAtBeginning(20);
     MyDblLinkedList.InsertAtBeginning(30);
+    MyDblLinkedList.InsertAtEnd(40);
+    MyDblLinkedList.InsertAtEnd(50);
 
     MyDblLinkedList.PrintList();
 
+    MyDblLinkedList.DeleteFirstNode();  
     cout << "Size: " << MyDblLinkedList.Size() << endl;
 
 
