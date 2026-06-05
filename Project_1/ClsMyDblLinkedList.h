@@ -44,7 +44,7 @@ public:
         cout << endl;
     }
 
-    Node *Find(Node *Head, int Value)
+    Node *Find(T Value)
     {
         while (Head != NULL)
         {
