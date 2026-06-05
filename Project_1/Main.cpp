@@ -11,10 +11,10 @@ using namespace std;
 
 int main()
 {
-    clsMyDblLinkeList < int > MyDblLinkedList;
+    clsDblLinkeList < int > MyDblLinkedList;
 
     MyDblLinkedList.InsertAtBeginning(10);
-    
+
 
     return 0;
 }
