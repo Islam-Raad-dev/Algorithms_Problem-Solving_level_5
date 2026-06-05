@@ -187,6 +187,6 @@ public:
 
     bool IsEmpty()
     {
-        return _Size == 0;
+        return _Size == 0 ? true : false ;
     }
 };
