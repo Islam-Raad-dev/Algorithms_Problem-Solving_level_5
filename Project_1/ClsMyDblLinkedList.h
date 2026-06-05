@@ -1,7 +1,7 @@
 #pragma once
 
 template <class T>
-class clsMyDblLinkeList
+class clsDblLinkeList
 {
 
 public:
@@ -15,7 +15,7 @@ public:
     };
 
     Node *Head = NULL;
-    
+
     void InsertAtBeginning(Node *&Head, int Value)
     {
         Node *NewNode = new Node();
