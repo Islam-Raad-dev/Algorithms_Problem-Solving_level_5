@@ -214,4 +214,28 @@ public:
             Head = Temp->Prev;
         }
     }
+
+    Node *GetNode(int Index)
+    {
+        int Counter = 0;
+
+        if (Index < 0 || Index >= _Size)
+        {
+            return NULL;
+        }
+
+        Node *Current = Head;
+
+        while (Current != NULL && Current->Next != NULL)
+        {
+            if (Counter == Index)
+            {
+                break;
+            }
+            Current = Current->Next;
+            Counter++;
+        }
+        
+        return Current;
+    }
 };
