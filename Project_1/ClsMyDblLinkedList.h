@@ -180,7 +180,7 @@ public:
         _Size--;
     }
 
-    int Size()
+    int size()
     {
         return _Size;
     }
@@ -189,4 +189,6 @@ public:
     {
         return _Size == 0 ? true : false ;
     }
+
+    void cleare
 };
