@@ -22,6 +22,7 @@ int main()
 
     MyDblLinkedList.DeleteFirstNode();  
     cout << "Size: " << MyDblLinkedList.Size() << endl;
+    cout << "Is Empty: " << MyDblLinkedList.IsEmpty() << endl;
 
 
     return 0;
