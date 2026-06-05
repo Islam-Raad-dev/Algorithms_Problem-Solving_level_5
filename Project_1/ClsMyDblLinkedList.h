@@ -244,12 +244,8 @@ public:
         Node *ItemNode = GetNode(Index);
 
         if (ItemNode == NULL)
-        {
-            return NULL;
-        }
+            return T();
         else
-        {
             return ItemNode->Value;
-        }
     }
 };
