@@ -13,5 +13,8 @@ int main()
 {
     clsMyDblLinkeList < int > MyDblLinkedList;
 
+    MyDblLinkedList.InsertAtBeginning(10);
+    
+
     return 0;
 }
