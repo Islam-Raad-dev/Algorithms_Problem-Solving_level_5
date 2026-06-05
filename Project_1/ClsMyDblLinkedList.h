@@ -192,7 +192,7 @@ public:
 
     void clear()
     {
-        while (Head != NULL)
+        while (_Size > 0)
         {
             DeleteFirstNode();
         }
