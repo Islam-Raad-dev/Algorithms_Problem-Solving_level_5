@@ -59,7 +59,7 @@ public:
         return NULL;
     }
 
-    void InsertAfter(Node *&Current, T Value)
+    void InsertAfter(Node *Current, T Value)
     {
         Node *NewNode = new Node();
         NewNode->Value = Value;
