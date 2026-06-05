@@ -33,10 +33,12 @@ public:
 
     void PrintList()
     {
-        while (Head != NULL)
+        Node *Current = Head;
+
+        while (Current != NULL)
         {
-            cout << Head->Value << " ";
-            Head = Head->Next;
+            cout << Current->Value << " ";
+            Current = Current->Next;
         }
 
         cout << endl;
