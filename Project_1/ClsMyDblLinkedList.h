@@ -248,4 +248,14 @@ public:
         else
             return ItemNode->Value;
     }
+
+    void UpdateItem(int Index, T NewValue)
+    {
+        Node *ItemNode = GetNode(Index);
+
+        if (ItemNode != NULL)
+        {
+            ItemNode->Value = NewValue;
+        }
+    }
 };
