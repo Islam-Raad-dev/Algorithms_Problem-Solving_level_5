@@ -5,13 +5,16 @@ class clsMyDblLinkeList
 {
 
 public:
+
     class Node
     {
     public:
         T Value;
         Node *Next;
         Node *Prev;
-    } void InsertAtBeginning(Node *&Head, int Value)
+    };
+
+    void InsertAtBeginning(Node *&Head, int Value)
     {
         Node *NewNode = new Node();
         NewNode->Value = Value;
