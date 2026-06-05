@@ -1,3 +1,14 @@
+/*
+
+Double Linked List Class: 
+
+ A double linked list is a data structure that consists of a sequence of 
+ nodes, where each node contains a value and two pointers: one pointing to 
+ the next node in the sequence and another pointing to the previous node. 
+ This allows for efficient insertion and deletion of nodes at both ends of 
+ the list, as well as traversal in both directions.
+
+*/
 #pragma once
 
 #include <iostream>
