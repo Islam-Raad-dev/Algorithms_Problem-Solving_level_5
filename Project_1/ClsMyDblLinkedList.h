@@ -46,13 +46,15 @@ public:
 
     Node *Find(T Value)
     {
-        while (Head != NULL)
+        Node *Current = Head;
+        
+        while (Current != NULL)
         {
-            if (Head->Value == Value)
+            if (Current->Value == Value)
             {
-                return Head;
+                return Current;
             }
-            Head = Head->Next;
+            Current = Current->Next;
         }
         return NULL;
     }
