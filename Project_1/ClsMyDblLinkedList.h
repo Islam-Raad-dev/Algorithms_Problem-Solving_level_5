@@ -31,6 +31,17 @@ public:
         Head = NewNode;
     }
 
+    void PrintList()
+    {
+        while (Head != NULL)
+        {
+            cout << Head->Value << " ";
+            Head = Head->Next;
+        }
+
+        cout << endl;
+    }
+
     Node *Find(Node *Head, int Value)
     {
         while (Head != NULL)
@@ -153,14 +164,5 @@ public:
         delete Current;
     }
 
-    void PrintList(Node *Head)
-    {
-        while (Head != NULL)
-        {
-            cout << Head->Value << " ";
-            Head = Head->Next;
-        }
 
-        cout << endl;
-    }
 };
