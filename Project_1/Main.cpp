@@ -13,6 +13,12 @@ int main()
     clsDblLinkeList < int > MyDblLinkedList;
 
     MyDblLinkedList.InsertAtBeginning(10);
+    MyDblLinkedList.InsertAtBeginning(20);
+    MyDblLinkedList.InsertAtBeginning(30);
+
+    MyDblLinkedList.PrintList();
+
+    cout << "Size: " << MyDblLinkedList.Size() << endl;
 
 
     return 0;
