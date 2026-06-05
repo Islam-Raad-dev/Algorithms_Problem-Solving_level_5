@@ -74,7 +74,7 @@ public:
         Current->Next = NewNode;
     }
 
-    void InsertAtEnd(Node *&Head, int Value)
+    void InsertAtEnd(T Value)
     {
 
         Node *NewNode = new Node();
