@@ -197,4 +197,23 @@ public:
             DeleteFirstNode();
         }
     }
+
+    void Reverse()
+    {
+        Node *Current = Head;
+        Node *Temp = NULL;
+
+        while (Current != NULL)
+        {
+            Temp = Current->Prev;
+            Current->Prev = Current->Next;
+            Current->Next = Temp;
+            Current = Current->Prev;
+        }
+
+        if (Temp != NULL)
+        {
+            Head = Temp->Prev;
+        }
+    }
 };
