@@ -168,5 +168,18 @@ public:
         delete Current;
     }
 
+    int Size()
+    {
+        int Count = 0;
+        Node *Current = Head;
+
+        while (Current != NULL)
+        {
+            Count++;
+            Current = Current->Next;
+        }
+
+        return Count;
+    }
 
 };
