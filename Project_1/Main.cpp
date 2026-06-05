@@ -21,6 +21,7 @@ int main()
 
     
     cout << "Reverse: " ; MyDblLinkedList.Reverse();
+    MyDblLinkedList.PrintList();
 
 
     return 0;
