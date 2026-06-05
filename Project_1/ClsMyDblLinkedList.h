@@ -190,5 +190,11 @@ public:
         return _Size == 0 ? true : false ;
     }
 
-    void cleare
+    void clear()
+    {
+        while (Head != NULL)
+        {
+            DeleteFirstNode();
+        }
+    }
 };

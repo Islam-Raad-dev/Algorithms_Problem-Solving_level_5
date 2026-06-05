@@ -23,7 +23,7 @@ int main()
     MyDblLinkedList.DeleteFirstNode();  
     cout << "Size: " << MyDblLinkedList.size() << endl;
     cout << "Is Empty: " << MyDblLinkedList.IsEmpty() << endl;
-    cout << "Clear List: " << endl;
+    cout << "Clear List: "  << MyDblLinkedList.clear() << endl;
 
 
     return 0;
