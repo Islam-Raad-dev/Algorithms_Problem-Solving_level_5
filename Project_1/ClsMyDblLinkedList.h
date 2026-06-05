@@ -235,7 +235,21 @@ public:
             Current = Current->Next;
             Counter++;
         }
-        
+
         return Current;
+    }
+
+    T GetItem(int Index)
+    {
+        Node *ItemNode = GetNode(Index);
+
+        if (ItemNode == NULL)
+        {
+            return NULL;
+        }
+        else
+        {
+            return ItemNode->Value;
+        }
     }
 };

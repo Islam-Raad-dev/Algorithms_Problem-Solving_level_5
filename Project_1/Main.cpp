@@ -19,11 +19,7 @@ int main()
     MyDblLinkedList.InsertAtEnd(50);
     MyDblLinkedList.PrintList();
 
+    cout << "Get Item: " << MyDblLinkedList.GetItem(3) << endl;
     
-    clsDblLinkeList<int>::Node* N;
-
-    N = MyDblLinkedList.GetNode(2);
-    cout << "Node at index 2: " << N->Value << endl;
-
     return 0;
 }
