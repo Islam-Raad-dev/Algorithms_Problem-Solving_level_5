@@ -17,14 +17,10 @@ int main()
     MyDblLinkedList.InsertAtBeginning(30);
     MyDblLinkedList.InsertAtEnd(40);
     MyDblLinkedList.InsertAtEnd(50);
-
     MyDblLinkedList.PrintList();
 
-    MyDblLinkedList.DeleteFirstNode();  
-    cout << "Size: " << MyDblLinkedList.size() << endl;
-    cout << "Is Empty: " << MyDblLinkedList.IsEmpty() << endl;
-    cout << "Clear List: "  ; MyDblLinkedList.clear();
-    cout << "Is Empty: " << MyDblLinkedList.IsEmpty() << endl;
+    
+    cout << "Reverse: " ; MyDblLinkedList.Reverse();
 
 
     return 0;
