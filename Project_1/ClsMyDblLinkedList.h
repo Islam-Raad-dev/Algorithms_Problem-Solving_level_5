@@ -8,11 +8,9 @@ class clsDblLinkeList
 {
 
 protected:
-
     int _Size = 0;
 
 public:
-
     class Node
     {
     public:
@@ -55,7 +53,7 @@ public:
     Node *Find(T Value)
     {
         Node *Current = Head;
-        
+
         while (Current != NULL)
         {
             if (Current->Value == Value)
@@ -187,7 +185,7 @@ public:
 
     bool IsEmpty()
     {
-        return _Size == 0 ? true : false ;
+        return _Size == 0 ? true : false;
     }
 
     void clear()
@@ -201,9 +199,9 @@ public:
     void Reverse()
     {
         Node *Current = Head;
-        Node *Temp = NULL;
+        Node *Temp = nullptr;
 
-        while (Current != NULL)
+        while (Current != nullptr)
         {
             Temp = Current->Prev;
             Current->Prev = Current->Next;
@@ -211,7 +209,7 @@ public:
             Current = Current->Prev;
         }
 
-        if (Temp != NULL)
+        if (Temp != nullptr)
         {
             Head = Temp->Prev;
         }
