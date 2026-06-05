@@ -25,7 +25,7 @@ The methodology in this repository shifts from isolated problem-solving to conti
 This repository focuses on multi-stage projects rather than isolated problems:
 
 ### Projects
-* **Project 1:** Core Implementation
+* **Project 1:** Project 1: Double Linked List Class
 * **Project 2:** Core Implementation
 * **Project 3:** Core Implementation
 * **Project 4:** Core Implementation
