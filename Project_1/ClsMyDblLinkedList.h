@@ -14,6 +14,8 @@ public:
         Node *Prev;
     };
 
+    Node *Head = NULL;
+    
     void InsertAtBeginning(Node *&Head, int Value)
     {
         Node *NewNode = new Node();
