@@ -6,6 +6,9 @@ using namespace std;
 template <class T>
 class clsDblLinkeList
 {
+protected:
+
+    int _Size = 0;
 
 public:
 
