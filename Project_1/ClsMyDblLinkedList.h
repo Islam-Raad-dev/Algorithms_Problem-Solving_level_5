@@ -109,11 +109,11 @@ public:
         _Size++;
     }
 
-    Node *DeleteNode(Node *&NodeToDelete)
+    void DeleteNode(Node *&NodeToDelete)
     {
         if (Head == NULL || NodeToDelete == NULL)
         {
-            return NULL;
+            return;
         }
 
         if (Head == NodeToDelete)
@@ -133,7 +133,6 @@ public:
 
         delete NodeToDelete;
         _Size--;
-        return NULL;
     }
 
     void DeleteFirstNode()
