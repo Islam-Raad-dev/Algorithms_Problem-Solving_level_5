@@ -20,9 +20,10 @@ int main()
     MyDblLinkedList.PrintList();
 
     
-    cout << "Reverse: " ; MyDblLinkedList.Reverse();
-    MyDblLinkedList.PrintList();
+    clsDblLinkeList<int>::Node* N;
 
+    N = MyDblLinkedList.GetNode(2);
+    cout << "Node at index 2: " << N->Value << endl;
 
     return 0;
 }
