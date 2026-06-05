@@ -16,7 +16,7 @@ public:
 
     Node *Head = NULL;
 
-    void InsertAtBeginning(Node *&Head, int Value)
+    void InsertAtBeginning(T Value)
     {
         Node *NewNode = new Node();
         NewNode->Value = Value;
