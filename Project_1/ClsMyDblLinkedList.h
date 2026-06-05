@@ -99,7 +99,7 @@ public:
         }
     }
 
-    Node *DeleteNode(Node *&Head, Node *&NodeToDelete)
+    Node *DeleteNode(Node *&NodeToDelete)
     {
         if (Head == NULL || NodeToDelete == NULL)
         {
@@ -125,7 +125,7 @@ public:
         return NULL;
     }
 
-    void DeleteFirstNode(Node *&Head)
+    void DeleteFirstNode()
     {
         if (Head == NULL)
         {
@@ -143,7 +143,7 @@ public:
         delete Temp;
     }
 
-    void DeleteLastNode(Node *&Head)
+    void DeleteLastNode()
     {
         if (Head == NULL)
         {
