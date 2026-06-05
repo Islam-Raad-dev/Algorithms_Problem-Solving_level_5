@@ -249,13 +249,29 @@ public:
             return ItemNode->Value;
     }
 
-    void UpdateItem(int Index, T NewValue)
+    bool UpdateItem(int Index, T NewValue)
     {
         Node *ItemNode = GetNode(Index);
 
         if (ItemNode != NULL)
         {
             ItemNode->Value = NewValue;
+            return true;
         }
+        else
+            return false;
+    }
+
+    bool InsertAfter(int Index, T Value)
+    {
+        Node *ItemNode = GetNode(Index);
+
+        if (ItemNode != NULL)
+        {
+            InsertAfter(ItemNode, Value);
+            return true;
+        }
+        else
+            return false;
     }
 };
