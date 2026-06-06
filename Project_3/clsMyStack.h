@@ -65,7 +65,7 @@ public:
 
     int size()
     {
-        _MyList.size();
+        return _MyList.size();
     }
 
     bool IsEmpty()
@@ -75,12 +75,12 @@ public:
 
     T Top()
     {
-        return _MyList.GetItem(size());
+        return _MyList.GetItem(0);
     }
 
     T Bottom()
     {
-        return _MyList.GetItem();
+        return _MyList.GetItem(size() - 1);
     }
 
     T GetItem(int Index)
