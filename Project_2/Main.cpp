@@ -17,15 +17,14 @@ int main()
     MyQueue.push(30);
     MyQueue.push(40);
 
-    MyQueue.print();
+    cout << "Queue Item: "; MyQueue.print();
 
-    cout << MyQueue.size() << endl;
-    cout << MyQueue.front() << endl;
-    cout << MyQueue.back() << endl;
+    cout << "Size : " << MyQueue.size() << endl;
+    cout << "Front : " << MyQueue.front() << endl;
+    cout << "Back : " << MyQueue.back() << endl;
 
     MyQueue.pop();
-
-    MyQueue.print();
+    cout << "POP : "; MyQueue.print();
 
     return 0;
 }
