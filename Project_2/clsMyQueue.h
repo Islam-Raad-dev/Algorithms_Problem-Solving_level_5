@@ -46,4 +46,24 @@ public:
     {
         _MyList.PrintList();
     }
+
+    void Reverse()
+    {
+        _MyList.Reverse();
+    }
+
+    T GetItem(T Item)
+    {
+        return _MyList.GetNode(Item);
+    }
+
+    bool UpdateItem(int Index, T NewValue)
+    {
+        return 0;
+    }
+
+    bool InsertAfter(int Index, T Value)
+    {
+        return 0;
+    }
 };
