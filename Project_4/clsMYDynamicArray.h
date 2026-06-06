@@ -57,5 +57,21 @@ public:
         }
     }
 
+    void Resize(int NewSize)
+    {
 
+        if(NewSize < 0)
+            NewSize = 0;
+
+        _TempArray = new T[NewSize];
+
+        if(NewSize < _Size)
+            _Size = NewSize;
+
+        for(int i = 0; i < _Size; i++)
+        {
+            _TempArray[i] = OriginalArray[i];
+        }
+        
+    }
 };
