@@ -32,7 +32,7 @@ public:
 
     int size()
     {
-        return _MyList.sis
+        return _MyList.size();
     }
 
     void print()
