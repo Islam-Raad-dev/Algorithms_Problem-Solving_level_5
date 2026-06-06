@@ -10,7 +10,7 @@ using namespace std;
 
 int main()
 {
-    clsMyQueue < int > MyQueue;
+    clsMyQueue<int> MyQueue;
 
     MyQueue.push(10);
     MyQueue.push(20);
@@ -21,10 +21,9 @@ int main()
     MyQueue.front();
     MyQueue.back();
 
-
     MyQueue.pop();
 
-    MyQueue
+    MyQueue.print();
 
     return 0;
 }
