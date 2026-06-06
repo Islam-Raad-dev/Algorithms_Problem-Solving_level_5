@@ -28,7 +28,7 @@ public:
         _MyList.DeleteFirstNode();
     }
 
-    void print()
+    void Print()
     {
         _MyList.PrintList();
     }
