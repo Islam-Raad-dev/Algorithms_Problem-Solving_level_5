@@ -67,4 +67,14 @@ public:
     {
         return 0;
     }
+
+    bool InsetAtFront(T Value)
+    {
+
+    }
+
+    bool InsetAtBack(T Value)
+    {
+        
+    }
 };
