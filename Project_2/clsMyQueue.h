@@ -35,6 +35,11 @@ public:
         return _MyList.size();
     }
 
+    bool IsEmpty()
+    {
+        
+    }
+
     void print()
     {
         _MyList.PrintList();
