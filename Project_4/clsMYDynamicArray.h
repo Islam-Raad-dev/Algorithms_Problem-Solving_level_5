@@ -1,30 +1,41 @@
 #pragma once
 
 #include <iostream>
-#include "clsMyStack.h"
 
 using namespace std;
 
 template <class T>
 class clsMyDynaminArray
 {
-private:
-
-    T _Index;
 
 protected:
 
-    clsMyStack < int > MyStack;
+    int _Size = 0;
+    T* _TempArray;
 
 public:
 
-    clsMyDynaminArray(T index)
+    T* OriginalArray;
+
+    clsMyDynaminArray(int Size = 0)
     {
-        _Index = index;
+       if(Size < 0)
+        Size = 0;
+
+        _Size = Size;
+
+        OriginalArray = new T[_Size];
     }
 
-    void SetItem(int Index, T Value)
+    ~clsMyDynaminArray()
     {
+        delete[] OriginalArray;
+    }
+
+    bool SetItem(int Index, T Value)
+    {
+        if(Index >= _Size || _Size < 0)
+            return false;
 
     }
 
