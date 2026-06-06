@@ -36,6 +36,7 @@ public:
 
     int size()
     {
+        _MyList.size();
     }
 
     T Top()
