@@ -13,8 +13,24 @@ protected:
 
 public:
 
-    void SetItem(T Value)
+    void SetItem(int Index, T Value)
     {
 
     }
+
+    void PrintList()
+    {
+
+    }
+
+    bool IsEmpty()
+    {
+
+    }
+
+    int size()
+    {
+
+    }
+
 };
