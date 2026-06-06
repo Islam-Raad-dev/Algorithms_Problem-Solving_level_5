@@ -40,7 +40,7 @@ public:
     }
 
     T Top()
-    {
+    return _MyList.
     }
 
     T Bottom()
