@@ -7,9 +7,23 @@ template <class T>
 class clsMyQueue
 {
 private:
-
 public:
+    void push(T value)
+    {
+    }
 
-    
+    void pop()
+    {
+    }
 
+    T front()
+    {
+    }
+    T back()
+    {
+    }
+
+    int size()
+    {
+    }
 };
