@@ -9,18 +9,16 @@ class clsMyDynaminArray
 {
 
 protected:
-
     int _Size = 0;
-    T* _TempArray;
+    T *_TempArray;
 
 public:
-
-    T* OriginalArray;
+    T *OriginalArray;
 
     clsMyDynaminArray(int Size = 0)
     {
-       if(Size < 0)
-        Size = 0;
+        if (Size < 0)
+            Size = 0;
 
         _Size = Size;
 
@@ -34,28 +32,28 @@ public:
 
     bool SetItem(int Index, T Value)
     {
-        if(Index >= _Size || _Size < 0)
+        if (Index >= _Size || _Size < 0)
             return false;
 
         OriginalArray[Index] = Value;
         return true;
     }
 
-        bool IsEmpty()
+    bool IsEmpty()
     {
-
+        return (_Size == 0 ? true : false);
     }
 
     int size()
     {
-
+        return _Size;
     }
 
     void PrintList()
     {
-
+        for (int i = 0; i <= _Size - 1; i++)
+        {
+            cout << OriginalArray[i] << " ";
+        }
     }
-
-
-
 };
