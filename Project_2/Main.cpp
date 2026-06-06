@@ -6,4 +6,8 @@ My Queue Class
 #include <iostream>
 #include "clsMyQueue.h"
 
-using namespace std; 
+using namespace std;
+
+class clsMyQueue
+{
+};
