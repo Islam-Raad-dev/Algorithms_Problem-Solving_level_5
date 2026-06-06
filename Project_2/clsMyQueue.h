@@ -24,10 +24,12 @@ public:
 
     T front()
     {
+        return _MyList.GetItem(0);
     }
 
     T back()
     {
+        return _MyList.GetItem(size() - 1);
     }
 
     int size()
@@ -37,7 +39,7 @@ public:
 
     bool IsEmpty()
     {
-        
+        return _MyList.IsEmpty();
     }
 
     void print()
