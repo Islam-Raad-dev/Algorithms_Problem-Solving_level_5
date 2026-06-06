@@ -10,7 +10,7 @@ class clsMyDynaminArray
 {
 private:
 
-    T _Value;
+    T _Index;
 
 protected:
 
@@ -18,9 +18,9 @@ protected:
 
 public:
 
-    clsMyDynaminArray(T vlaue)
+    clsMyDynaminArray(T index)
     {
-        _Value = vlaue;
+        _Index = index;
     }
 
     void SetItem(int Index, T Value)
