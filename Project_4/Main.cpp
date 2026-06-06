@@ -21,12 +21,8 @@ int main()
 
     MyDynaminArray.PrintList();
 
-    
-    cout << "\nIs Empty : " ;
-    if(MyDynaminArray.IsEmpty())
-            cout << "Yes";
-    else
-            cout << "No";
+
+    cout << "\nIs Empty : " << MyDynaminArray.IsEmpty();
 
 
     cout << "\nSize : " << MyDynaminArray.size() << endl;
