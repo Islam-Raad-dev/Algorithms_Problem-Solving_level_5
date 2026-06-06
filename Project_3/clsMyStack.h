@@ -33,17 +33,18 @@ public:
         _MyList.PrintList();
     }
 
-
     int size()
     {
         _MyList.size();
     }
 
     T Top()
-    return _MyList.
+    {
+        return _MyList.GetItem(size());
     }
 
     T Bottom()
     {
+        return _MyList.GetItem();
     }
 };
