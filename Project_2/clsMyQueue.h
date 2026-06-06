@@ -9,7 +9,6 @@ class clsMyQueue
 {
 
 protected:
-
     clsDblLinkeList<T> _MyList;
 
 public:
@@ -70,12 +69,12 @@ public:
 
     void InsetAtFront(T Value)
     {
-
+        _MyList.InsertAtBeginning(Value);
     }
 
     bool InsetAtBack(T Value)
     {
-        
+        _MyList.InsertAtEnd(Value);
     }
 
     void clear()
