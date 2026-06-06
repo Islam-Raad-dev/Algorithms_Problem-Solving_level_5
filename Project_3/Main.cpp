@@ -1,6 +1,6 @@
 /*
 
-My Stack Class
+My Stack Project
 
 */
 #include <iostream>
