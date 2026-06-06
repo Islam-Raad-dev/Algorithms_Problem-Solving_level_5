@@ -25,7 +25,7 @@ This repository focuses on multi-stage projects rather than isolated problems:
 
 ### Projects
 * **Project 1:** Double Linked List Class
-* **Project 2:** Core Implementation
+* **Project 2:** Queue Class
 * **Project 3:** Core Implementation
 * **Project 4:** Core Implementation
 * **Project 5:** Core Implementation
