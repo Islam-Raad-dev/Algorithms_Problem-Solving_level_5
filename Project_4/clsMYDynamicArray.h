@@ -114,4 +114,34 @@ public:
         delete[] OriginalArray;
         OriginalArray = _TempArray;
     }
+
+    bool DeleteItemAt(int Index)
+    {
+        if(Index >= _Size || Index < 0)
+        {
+            return false;
+        }
+
+        _Size--;
+
+        _TempArray = new T[_Size]
+
+        for(int i = Index + 1; i < Index; i++)
+        {
+            _TempArray[i] = OriginalArray[i]
+        }
+
+        for(int i = Index + 1; i < _Size; i++)
+        {
+            _TempArray[i - 1] = OriginalArray[i];
+        }
+
+        delete [] OriginalArray;
+
+        OriginalArray = _TempArray;
+
+        return true;
+    }
+
+
 };
