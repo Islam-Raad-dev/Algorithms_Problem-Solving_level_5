@@ -72,7 +72,7 @@ public:
         _MyList.InsertAtBeginning(Value);
     }
 
-    bool InsetAtBack(T Value)
+    void InsetAtBack(T Value)
     {
         _MyList.InsertAtEnd(Value);
     }
