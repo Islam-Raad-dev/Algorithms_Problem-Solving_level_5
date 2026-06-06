@@ -1,3 +1,8 @@
+/*
+
+My Stack Class
+
+*/
 #pragma once
 
 #include <iostream>
