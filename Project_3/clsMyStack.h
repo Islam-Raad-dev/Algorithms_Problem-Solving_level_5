@@ -38,6 +38,11 @@ public:
         _MyList.size();
     }
 
+    bool IsEmpty()
+    {
+        return _MyList.IsEmpty();
+    }
+
     T Top()
     {
         return _MyList.GetItem(size());
@@ -46,5 +51,10 @@ public:
     T Bottom()
     {
         return _MyList.GetItem();
+    }
+
+    T GetItem(int Index)
+    {
+        return _MyList.GetItem(Index);
     }
 };
