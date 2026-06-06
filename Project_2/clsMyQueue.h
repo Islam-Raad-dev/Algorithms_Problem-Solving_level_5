@@ -53,9 +53,9 @@ public:
         _MyList.Reverse();
     }
 
-    T GetItem(T Item)
+    T GetItem(int Index)
     {
-        return _MyList.GetNode(Item);
+        return _MyList.GetItem(Index);
     }
 
     bool UpdateItem(int Index, T NewValue)
