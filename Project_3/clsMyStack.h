@@ -20,15 +20,19 @@ protected:
 public:
     void push(T Value)
     {
+        _MyList.InsertAtBeginning(Value);
     }
 
     void pop()
     {
+        _MyList.DeleteFirstNode();
     }
 
     void print()
     {
+        _MyList.PrintList();
     }
+
 
     int size()
     {
