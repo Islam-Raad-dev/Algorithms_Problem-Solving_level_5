@@ -8,6 +8,7 @@ class clsMyQueue
 {
 private:
 public:
+
     void push(T value)
     {
     }
@@ -19,11 +20,16 @@ public:
     T front()
     {
     }
+
     T back()
     {
     }
 
     int size()
+    {
+    }
+
+    void print()
     {
     }
 };
