@@ -14,11 +14,12 @@ protected:
 public:
     void push(T Item)
     {
-        _MyList.InsertAtEnd(Item)
+        _MyList.InsertAtEnd(Item);
     }
 
     void pop()
     {
+        _MyList.DeleteFirstNode();
     }
 
     T front()
