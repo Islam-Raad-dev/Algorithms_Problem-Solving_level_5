@@ -7,10 +7,14 @@ using namespace std;
 template <class T>
 class clsMyQueue
 {
-private:
+
+protected:
+    clsDblLinkeList<T> _MyList;
+
 public:
-    void push(T value)
+    void push(T Item)
     {
+        _MyList.InsertAtEnd(Item)
     }
 
     void pop()
