@@ -1,7 +1,7 @@
 /*
 
 My Queue Class
-
+                     
 */
 #include <iostream>
 #include "clsMyQueue.h"
