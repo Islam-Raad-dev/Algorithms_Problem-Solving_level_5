@@ -60,18 +60,58 @@ public:
     void Resize(int NewSize)
     {
 
-        if(NewSize < 0)
+        if (NewSize < 0)
+        {
             NewSize = 0;
+        }
 
         _TempArray = new T[NewSize];
 
-        if(NewSize < _Size)
+        if (NewSize < _Size)
+        {
             _Size = NewSize;
+        }
 
-        for(int i = 0; i < _Size; i++)
+        for (int i = 0; i < _Size; i++)
         {
             _TempArray[i] = OriginalArray[i];
         }
-        
+
+        _Size = NewSize;
+
+        delete[] OriginalArray;
+
+        OriginalArray = _TempArray;
+    }
+
+    T GetItem(int Index)
+    {
+        return OriginalArray[Index];
+    }
+
+    void Reverse()
+    {
+
+        _TempArray = new T[_Size];
+
+        int Counter = 0;
+
+        for (int i = _Size; i >= 0; i--)
+        {
+            _TempArray[Counter] = OriginalArray[i];
+            Counter++;
+        }
+
+        delete[] OriginalArray;
+
+        OriginalArray = _TempArray;
+    }
+
+    void Clear()
+    {
+        _Size = 0;
+        _TempArray = new T[0];
+        delete[] OriginalArray;
+        OriginalArray = _TempArray;
     }
 };
