@@ -37,14 +37,11 @@ public:
         if(Index >= _Size || _Size < 0)
             return false;
 
+        OriginalArray[Index] = Value;
+        return true;
     }
 
-    void PrintList()
-    {
-
-    }
-
-    bool IsEmpty()
+        bool IsEmpty()
     {
 
     }
@@ -53,5 +50,12 @@ public:
     {
 
     }
+
+    void PrintList()
+    {
+
+    }
+
+
 
 };
