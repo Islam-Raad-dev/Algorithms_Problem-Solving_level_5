@@ -77,4 +77,9 @@ public:
     {
         
     }
+
+    void clear()
+    {
+        _MyList.clear();
+    }
 };
