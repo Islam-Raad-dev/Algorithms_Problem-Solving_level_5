@@ -32,9 +32,11 @@ public:
 
     int size()
     {
+        return _MyList.sis
     }
 
     void print()
     {
+        _MyList.PrintList();
     }
 };
