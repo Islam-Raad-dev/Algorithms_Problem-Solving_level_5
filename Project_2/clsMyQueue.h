@@ -9,6 +9,7 @@ class clsMyQueue
 {
 
 protected:
+
     clsDblLinkeList<T> _MyList;
 
 public:
