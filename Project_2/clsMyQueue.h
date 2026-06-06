@@ -58,17 +58,17 @@ public:
         return _MyList.GetItem(Index);
     }
 
-    bool UpdateItem(int Index, T NewValue)
+    void UpdateItem(int Index, T NewValue)
     {
-        return 0;
+        _MyList.UpdateItem(Index, NewValue);
     }
 
-    bool InsertAfter(int Index, T Value)
+    void InsertAfter(int Index, T NewValue)
     {
-        return 0;
+        _MyList.InsertAfter(Index, NewValue);
     }
 
-    bool InsetAtFront(T Value)
+    void InsetAtFront(T Value)
     {
 
     }
