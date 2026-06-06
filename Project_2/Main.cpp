@@ -17,9 +17,11 @@ int main()
     MyQueue.push(30);
     MyQueue.push(40);
 
-    MyQueue.size();
-    MyQueue.front();
-    MyQueue.back();
+    MyQueue.print();
+
+    cout << MyQueue.size() << endl;
+    cout << MyQueue.front() << endl;
+    cout << MyQueue.back() << endl;
 
     MyQueue.pop();
 
