@@ -26,5 +26,7 @@ int main()
     MyQueue.pop();
     cout << "POP : "; MyQueue.print();
 
+    cout << "Reverse : " ; MyQueue.Reverse();
+
     return 0;
 }
