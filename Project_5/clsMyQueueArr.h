@@ -2,6 +2,7 @@
 
 #include <iostream>
 #include "clsMYDynamicArray.h"
+
 using namespace std;
 
 template <class T>
@@ -10,7 +11,7 @@ class clsMyQueueArr
 {
 
 protected:
-    clsDblLinkeList<T> _MyList;
+    clsMyDynaminArray < T > _MyList;
 
 public:
     void push(T Item)
