@@ -28,7 +28,7 @@ This repository focuses on multi-stage projects rather than isolated problems:
 * **Project 2:** Queue Class
 * **Project 3:** Stack Class
 * **Project 4:** Dynamic Array (Vector) Class
-* **Project 5:** Core Implementation
+* **Project 5:** Queue Array Class
 * **Project 6:** Core Implementation
 * **Project 7:** Core Implementation
 * **Project 8:** Core Implementation
