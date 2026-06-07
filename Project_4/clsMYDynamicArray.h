@@ -149,4 +149,7 @@ public:
     }
 
     void DeleteLastItem()
+    {
+        DeleteItemAt(_Size - 1);
+    }
 };
