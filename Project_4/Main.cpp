@@ -1,6 +1,6 @@
 /*
 
-Dinamic Array Project
+Dynamic Array Project
                                         
 */
 
