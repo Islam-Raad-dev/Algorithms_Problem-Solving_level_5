@@ -143,5 +143,8 @@ public:
         return true;
     }
 
-    void DeleteFirstitem
+    void DeleteFirstItem()
+    {
+        DeleteItemAt(0);
+    }
 };
