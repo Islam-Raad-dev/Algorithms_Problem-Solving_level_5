@@ -213,8 +213,9 @@ public:
         InsertAt(0, Value);
     }
 
-    void InsertAtEnd(T Value)
+    bool InsertAtEnd(T Value)
     {
+        return InsertAt(_Size, Value);
     }
 
     bool InsertAfter(int Index, T Value)
@@ -233,5 +234,4 @@ public:
         else
             return InsertAt(Index - 1; Value);
     }
-
 };
