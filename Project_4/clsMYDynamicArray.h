@@ -157,7 +157,10 @@ public:
     {
         for(int i = 0; i < _Size; i++)
         {
-            
+            if(OriginalArray[i] == Value)
+            {
+                
+            }
         }
 
     }
