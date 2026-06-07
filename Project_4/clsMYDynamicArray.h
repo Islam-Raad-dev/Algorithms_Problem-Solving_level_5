@@ -210,6 +210,11 @@ public:
 
     void InsertAtBeginning(T Value)
     {
+
+    }
+
+    void InsertAtEnd(T Value)
+    {
         
     }
 };
