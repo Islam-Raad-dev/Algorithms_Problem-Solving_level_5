@@ -147,4 +147,6 @@ public:
     {
         DeleteItemAt(0);
     }
+
+    void DeleteLastItem()
 };
