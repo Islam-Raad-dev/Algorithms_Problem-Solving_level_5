@@ -153,13 +153,13 @@ public:
         DeleteItemAt(_Size - 1);
     }
 
-    void Find(T Value)
+    int Find(T Value)
     {
 
     }
 
     void DeleteItem(T Value)
     {
-        
+
     }
 };
