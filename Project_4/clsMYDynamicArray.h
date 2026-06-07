@@ -219,10 +219,10 @@ public:
 
     bool InsertAfter(int Index, T Value)
     {
-        if(Index >= _Size)
-            return InsertAt(_Size - 1 , Value);
+        if (Index >= _Size)
+            return InsertAt(_Size - 1, Value);
         else
-            return 
+            return InsertAt(Index + 1, Value);
     }
 
     bool InsertBefore(T Index, T Value)
