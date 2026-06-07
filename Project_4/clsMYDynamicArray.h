@@ -1,3 +1,8 @@
+/*
+
+My Dynamic Array Class
+
+*/                                                               
 #pragma once
 
 #include <iostream>
@@ -7,7 +12,7 @@ using namespace std;
 template <class T>
 class clsMyDynaminArray
 {
-
+                            
 protected:
     int _Size = 0;
     T *_TempArray;
