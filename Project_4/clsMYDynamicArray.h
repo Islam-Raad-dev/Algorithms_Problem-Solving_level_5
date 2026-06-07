@@ -167,7 +167,7 @@ public:
 
     }
 
-    void DeleteItem(T Value)
+    bool DeleteItem(T Value)
     {
 
     }
