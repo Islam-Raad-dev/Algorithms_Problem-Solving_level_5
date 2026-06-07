@@ -1,6 +1,6 @@
 /*
 
-Project 1: Double Linked List Class
+Double Linked List Project
 
 */
 #include <iostream>
