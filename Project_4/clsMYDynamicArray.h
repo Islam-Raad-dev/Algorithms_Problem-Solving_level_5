@@ -169,6 +169,7 @@ public:
 
     bool DeleteItem(T Value)
     {
+        int Index = Find(Value);
 
     }
 };
