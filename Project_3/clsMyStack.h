@@ -1,6 +1,6 @@
 /*
 
-My Stack Class
+Stack Project
 
 */
 #pragma once
