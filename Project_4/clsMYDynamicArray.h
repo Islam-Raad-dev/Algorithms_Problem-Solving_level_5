@@ -207,4 +207,9 @@ public:
         OriginalArray = _TempArray;
         return true;
     }
+
+    void InsertAtBeginning(T Value)
+    {
+        
+    }
 };
