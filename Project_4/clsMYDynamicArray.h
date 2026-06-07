@@ -206,4 +206,5 @@ public:
         delete[] OriginalArray;
         OriginalArray = _TempArray;
         return true;
-    };
+    }
+};
