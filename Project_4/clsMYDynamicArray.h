@@ -215,6 +215,13 @@ public:
 
     void InsertAtEnd(T Value)
     {
-        
+
     }
+
+    void InsertAfter(int Index, T Value)
+    {
+
+    }
+
+    
 };
