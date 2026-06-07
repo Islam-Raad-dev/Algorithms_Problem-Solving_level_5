@@ -1,6 +1,6 @@
 /*
 
-My Dynamic Array Class
+Dynamic Array Class
 
 */                                                               
 #pragma once
