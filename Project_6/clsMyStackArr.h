@@ -1,3 +1,9 @@
+/*
+
+Stack Array Class
+
+*/
+
 #pragma once
 
 #include <iostream>
