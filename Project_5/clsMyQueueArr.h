@@ -21,7 +21,7 @@ public:
 
     void pop()
     {
-        _MyList.DeleteFirstNode();
+        _MyList.;
     }
 
     T front()
