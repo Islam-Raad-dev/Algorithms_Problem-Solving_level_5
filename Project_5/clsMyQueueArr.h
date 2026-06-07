@@ -1,3 +1,8 @@
+/*
+
+Queue Array Class
+
+*/
 #pragma once
 
 #include <iostream>
