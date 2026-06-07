@@ -117,7 +117,7 @@ public:
 
     bool DeleteItemAt(int Index)
     {
-        if(Index >= _Size || Index < 0)
+        if (Index >= _Size || Index < 0)
         {
             return false;
         }
@@ -126,17 +126,17 @@ public:
 
         _TempArray = new T[_Size]
 
-        for(int i = Index + 1; i < Index; i++)
+            for (int i = Index + 1; i < Index; i++)
         {
             _TempArray[i] = OriginalArray[i]
         }
 
-        for(int i = Index + 1; i < _Size; i++)
+        for (int i = Index + 1; i < _Size; i++)
         {
             _TempArray[i - 1] = OriginalArray[i];
         }
 
-        delete [] OriginalArray;
+        delete[] OriginalArray;
 
         OriginalArray = _TempArray;
 
@@ -155,21 +155,27 @@ public:
 
     int Find(T Value)
     {
-        for(int i = 0; i < _Size; i++)
+        for (int i = 0; i < _Size; i++)
         {
-            if(OriginalArray[i] == Value)
+            if (OriginalArray[i] == Value)
             {
                 return i;
             }
 
             return -1;
         }
-
     }
 
     bool DeleteItem(T Value)
     {
         int Index = Find(Value);
 
+        if (Index == -1)
+        {
+            return false;
+        }
+
+        DeleteItemAt(Index);
+        return true;
     }
 };
