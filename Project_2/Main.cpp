@@ -1,6 +1,6 @@
 /*
 
-My Queue Class
+Queue Project
                      
 */
 #include <iostream>
