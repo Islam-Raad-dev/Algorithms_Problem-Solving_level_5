@@ -45,11 +45,11 @@ int main()
     cout << "\n\nQueue after Inserting 800 after Item(2) : \n";
     MyQueue.print();
 
-    MyQueue.InsertAtFront(1000);
+    MyQueue.InsetAtFront(1000);
     cout << "\n\nQueue after Inserting 1000 at front: \n";
     MyQueue.print();
 
-    MyQueue.InsertAtBack(2000);
+    MyQueue.InsetAtBack(2000);
     cout << "\n\nQueue after Inserting 2000 at back: \n";
     MyQueue.print();
 
