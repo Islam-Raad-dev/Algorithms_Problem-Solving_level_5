@@ -210,7 +210,7 @@ public:
 
     void InsertAtBeginning(T Value)
     {
-
+        InsertAt(0, Value);
     }
 
     void InsertAtEnd(T Value)
