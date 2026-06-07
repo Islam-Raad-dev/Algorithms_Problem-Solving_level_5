@@ -143,5 +143,5 @@ public:
         return true;
     }
 
-    
+    void DeleteFirstitem
 };
