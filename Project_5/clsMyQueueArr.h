@@ -1,6 +1,7 @@
 #pragma once
 
 #include <iostream>
+#include "clsMYDynamicArray.h"
 using namespace std;
 
 template <class T>
