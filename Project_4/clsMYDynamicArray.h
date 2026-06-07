@@ -155,6 +155,10 @@ public:
 
     int Find(T Value)
     {
+        for(int i = 0; i < _Size; i++)
+        {
+            
+        }
 
     }
 
