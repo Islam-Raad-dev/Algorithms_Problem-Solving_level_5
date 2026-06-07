@@ -27,7 +27,7 @@ This repository focuses on multi-stage projects rather than isolated problems:
 * **Project 1:** Double Linked List Class
 * **Project 2:** Queue Class
 * **Project 3:** Stack Class
-* **Project 4:** Core Implementation
+* **Project 4:** Dynamic Array (Vector) Class
 * **Project 5:** Core Implementation
 * **Project 6:** Core Implementation
 * **Project 7:** Core Implementation
