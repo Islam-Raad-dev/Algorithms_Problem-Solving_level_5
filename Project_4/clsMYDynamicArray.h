@@ -152,4 +152,6 @@ public:
     {
         DeleteItemAt(_Size - 1);
     }
+
+    void
 };
