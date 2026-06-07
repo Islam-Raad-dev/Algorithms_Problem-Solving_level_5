@@ -1,7 +1,7 @@
 /*
 
-My Dinamic Array Project
-
+Dinamic Array Project
+                             
 */
 
 #include <iostream>
