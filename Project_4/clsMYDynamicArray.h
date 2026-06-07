@@ -223,5 +223,8 @@ public:
 
     }
 
-    
+    void InsertBefore(int Index, T Value)
+    {
+        
+    }
 };
