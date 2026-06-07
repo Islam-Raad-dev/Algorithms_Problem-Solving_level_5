@@ -157,4 +157,9 @@ public:
     {
 
     }
+
+    void DeleteItem(T Value)
+    {
+        
+    }
 };
