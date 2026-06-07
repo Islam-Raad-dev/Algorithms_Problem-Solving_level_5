@@ -159,8 +159,10 @@ public:
         {
             if(OriginalArray[i] == Value)
             {
-                
+                return i;
             }
+
+            return -1;
         }
 
     }
