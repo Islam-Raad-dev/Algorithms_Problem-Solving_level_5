@@ -215,17 +215,18 @@ public:
 
     void InsertAtEnd(T Value)
     {
-
     }
 
     void InsertAfter(int Index, T Value)
     {
-
     }
 
-    void InsertBefore(int Index, T Value)
+    void InsertBefore(T Index, T Value)
     {
+        if (Index < 1)
+            return InsertAt(0, Value);
 
+        else
+            return InsertAt(Index - 1; Value);
     }
-
 };
