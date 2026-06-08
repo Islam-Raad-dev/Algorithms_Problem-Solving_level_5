@@ -1,7 +1,7 @@
 /*
 
 Small Project On Stack
-
+             
 */
 #include <iostream>
 #include "clsMyString.h"
