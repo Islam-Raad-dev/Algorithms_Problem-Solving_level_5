@@ -31,7 +31,7 @@ This repository focuses on multi-stage projects rather than isolated problems:
 * **Project 5:** Queue Array Class
 * **Project 6:** Stack Array Class
 * **Project 7:** Small Project On Stack
-* **Project 8:** Core Implementation
+* **Project 8:** Small Project On Queue
 
 ## 🛠️ Technologies Used
 * **Language:** C++
