@@ -30,7 +30,7 @@ This repository focuses on multi-stage projects rather than isolated problems:
 * **Project 4:** Dynamic Array (Vector) Class
 * **Project 5:** Queue Array Class
 * **Project 6:** Stack Array Class
-* **Project 7:** Core Implementation
+* **Project 7:** Small Project On Stack
 * **Project 8:** Core Implementation
 
 ## 🛠️ Technologies Used
