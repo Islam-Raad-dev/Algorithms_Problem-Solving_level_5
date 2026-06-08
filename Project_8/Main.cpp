@@ -1,7 +1,7 @@
 /*
 
 Small Project On Queue
-
+              
 */
 #include <iostream>
 #include "clsQueueLine.h"
