@@ -1,7 +1,7 @@
 /*
 
 Queue Project
-                     
+                           
 */
 #include <iostream>
 #include "clsMyQueue.h"

@@ -192,7 +192,7 @@ public:
     int size()
     {
         return _Size;
-    }
+    }            
 
     bool IsEmpty()
     {
